@@ -1,0 +1,21 @@
+/* element_id_selectors.html */
+body{
+    background-color: blueviolet;
+}
+
+h1{
+    color:whitesmoke;
+    text-align : center;
+    font-style: italic;
+}
+
+.square{
+    width:100px; height: 100px;
+    background-color:yellow;
+    margin: auto;
+}
+
+#circle{
+    color:rgb(216, 157, 30);
+    font-size: 40px;
+}

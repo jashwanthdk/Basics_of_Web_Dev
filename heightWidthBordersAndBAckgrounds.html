@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height,width,borders and backgrounds</title>
+    <style>
+        #firstpara
+        {
+            background-color: red;
+            height: 50px;
+            width: 400px;
+            border-width: 4px;
+            border-color: green;
+            border-style:solid;
+            border-radius: 10px;
+        }
+
+        #secondpara
+        {
+            background-color: rgb(34, 177, 77);
+            height: 50px;
+            width: 400px;
+            border-top: 2px solid violet;
+            border-right: 2px solid rgb(214, 30, 91);
+            border-bottom: 2px solid rgb(9, 78, 90);
+            border-left: 2px solid rgb(178, 206, 19);
+            border-top-left-radius: 10px;
+            border-bottom-right-radius: 14px;
+            border-top-right-radius: 8px;
+            border-bottom-left-radius: 24px;
+        }
+        #thirdpara
+        {
+            height: 400px;
+            width: 400px;
+            background-image: url('https://picsum.photos/300/300');
+            border:2px solid red;
+            /* background-repeat: repeat-x; */
+            /* background-repeat: repeat-y; */
+            background-repeat: no-repeat;
+            /* background-position: center center; */
+            /* background-position: center top; */
+            /* background-position-x: 500px; */
+            /* background-position-y: 200px; */
+            /* background-position: 200px 300px; */
+            background-position: center top;
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <h3>This is heading</h3>
+    <p id="firstpara">This is a paragraph</p>
+    <h3>This is heading</h3>
+    <p id="secondpara">This is a paragraph</p>
+    <h3>This is heading</h3>
+    <p id="thirdpara">This is a paragraph</p>
+</body>
+</html>

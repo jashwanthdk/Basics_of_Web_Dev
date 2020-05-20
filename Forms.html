@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>This is form tutorial.</h2>
+    <form action="backend.php">
+        <label for="name">Name:</label>
+        </label>
+        <div>
+            <input type="text" name="MyName" id="name">
+        </div>
+        <br>
+        <div>
+            Role:<input type="text" name="myRole">
+        </div>
+        <br>
+        <div>
+            Email:<input type="text" name="myEmail">
+        </div>
+        <br>
+
+        <div>
+            Date: <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="number" name="myNumber">
+        </div>
+        <br>
+        <div>
+            Are you eligible: <input type="checkbox" name="myEligibility">
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="myGender">
+            Female <input type="radio" name="myGender">
+
+            <div>
+                <br>
+                <div>
+                    <input type="submit" value="Submit Now"> <input type="reset" value="Reset Now">
+                </div>
+                <br>
+                <div>
+                    Write about Yourself:
+                    <br>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <br>
+                <div>
+                    <label for=car>Car</label>
+                    <select name="myCar" id="car">
+                        <option value="ind" selected>Indica</option>
+                        <option value="swf">Swift</option>
+                    </select>
+                </div>
+
+
+
+
+    </form>
+
+
+</body>
+
+</html>
+
+<!--
+    (input + Enter) gives us <input type="text">
+    further we can add name="" for our backend programming.
+    
+    (form + enter) gives us <form action=""></form>
+    
+    <div></div> is used in order to start from the next line
+
+    when we type (input:number + enter) we get
+    <input type="number" name="" id="">
+    inside name we can keep some random name which can be used for backend
+
+    when we type (input:date + enter) we get
+    <input type="date" name="" id="">
+
+    for a submit button we use
+    (input:submit + enter)
+    <input type="submit" value="Submit Now">
+    type is submit which is supposed to be typed
+    whereas submit now is displayed to the user
+
+    for a Reset button we use
+    (input:submit + enter)
+    <input type="reset" value="Reset Now">
+    type is reset
+    value is our wish we can keep any because that is going to be displayed to the user.
+
+    simlarly
+    input:checkbox 
+    <input type="checkbox" name="">
+    
+
+    for a radio button
+    input:b is used
+    <input type="button" value="">
+
+    textarea gives us a big box so that we can type watever we want to do
+    even the rows and cols can be adjusted based on our requirement.
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+
+    * We can even shift the textarea based on our requirement.
+
+
+    In order to type within the box 
+    u dont need to go all the to the box, then click on the box, thn later write in tat.
+    we can simply keep the cursor on the "Name" and click that very label
+    it gives us the option of writing within the box.
+    by using the below two lines 
+
+    <label for="name">Name:</label>
+    <input type="text" name="MyName" id="name">
+    whatever is given in id should be given to the label for.
+    
+-->

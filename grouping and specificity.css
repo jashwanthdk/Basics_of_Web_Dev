@@ -1,0 +1,68 @@
+[id="foo"]{
+    color:cyan;
+}
+/* [id="fool"] = class(1),elements(0) = 10 */
+#foo{
+    color: rosybrown;
+}
+/* Style attribute, id , {class or psuedo class}, elements */
+/* #foo = id(1),class(0),elemnts(0) = 100 */
+
+
+/* Ultimately #foo is given
+ most priority based on specificity */
+.container h1{
+    color:rgb(48, 48, 196);
+}
+div h1{
+    color: yellow;
+}
+
+/* html and body are given more priority 
+than grouped headers */
+/* if body is below html 
+than the body is given more priority */
+/* if html is below body then 
+html is given more priority */
+/* this is conept is based on specificity */
+h1,h2,h3{
+    color:rgb(39, 7, 68);
+    text-shadow: 2px 2px 4px black;
+    line-height: 1rem;
+    font-family: sans-serif;
+}
+
+
+
+/* h1{
+    color:green;
+} */
+/* this is called specificaity 
+the above h1 is written below the grouped headers
+so that is given more priority  */
+
+/* if at all the h1 is written above the grouped headers 
+then the grouped headers are given more priority */
+
+/* gruping h1,h2,h3 
+instead of doing seperately */
+
+.borderImg{
+    border: 10px dashed red;
+}
+ul li{
+    color:blue;
+}
+
+
+/* style attribute , id , 
+{class,psuedo-class attribute},elements */
+/* .container h1 = class + h1 = 1 1 */
+/* div h1 = div+h1 = 1+1 = 2 */
+/*In this case .container is given 
+more priority than div */
+h1{
+    color: grey !important;
+}
+/* this !important overides everything.
+And this is given most priority */
