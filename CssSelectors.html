@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        p
+        {
+            /* Element selector */
+            border: 2px solid red;
+            /* Each and every paragraph is selected and a border is drawn */
+        }
+        #RedElement
+        {
+            /* Id Selector */
+            color: red;
+        }
+    </style>
+
+    <style>
+        /* Class selector */
+        .wifi
+        {
+            color:aqua
+        }
+
+    </style>
+
+    <style>
+        /* Class Selector */
+        .bandits
+        {
+            background-color: blue;
+        }
+    </style>
+
+    <style>
+        /* Group selector */
+        span,footer{
+            background-color:crimson;
+            color: aliceblue;
+        }
+    /* We can select span and footer together and give them their styles. */
+    </style>
+</head>
+<body>
+    <h3>CSS Selectors</h3>
+    <p >This is a simple paragraph to demonstrate css selectors</p>
+    <p id="RedElement">This is another simple paragraph to demonstrate css selectors</p>
+    <div>
+    <p class="wifi bandits">This is yet another simple paragraph to demonstrate css selectors</p>
+    </div>
+
+    <span>Idhi sample mathrame</span>
+    <footer>This is footer</footer>
+</body>
+</html>
+<!-- We can acess a paragraph id using #operator , #RedElement-->
+<!-- We can acess a class using dot operator .wifi -->
+
+<!-- We can have a class like this
+class = "wifi bandits"
+each word in that class can be used as a class.
+like we can use wifi to make the third para blue in color
+we can use the next word bandits to make the 3rd para's background 
+-->
+
+<!-- in case of id its unique 
+we have a single word in id and it can be used in style with a # symbol
+-->
+
+<!-- These .wifi .bandits and #RedElements are called as selectors. -->

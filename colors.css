@@ -1,0 +1,27 @@
+/* colors_nd_shadows.html */
+body{
+    background-image: url("https://picsum.photos/id/237/200/300");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    background:  linear-gradient(to bottom right, 
+     #0066ff,#e6f0ff);
+    background-color:rgb(34, 0, 255) ;
+    box-shadow: -5px 5px 5px black;
+}
+
+h1{
+    color:white;
+    text-shadow: -2px -2px 5px black;
+}
+
+h2{
+    color:whitesmoke;
+    text-shadow: -2px -2px 5px black;
+}
+.borderImg{
+    border: 4px dashed red;
+}

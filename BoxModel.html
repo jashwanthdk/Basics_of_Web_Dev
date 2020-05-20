@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin:0;
+            padding:0;
+        }
+        body
+        {
+            background-color: brown;
+        }
+        .container {
+            background-color: bisque;
+            border: 3px solid rgb(100, 50, 100);
+            /* We can do padding in this manner top-right-left-bottom
+            padding-top: 79px;
+            padding-bottom: 79px;
+            padding-left: 34px; */
+            /* padding: 23px 56px 6px 78px; */
+            /* padding and margin top right bottom left */
+            padding: 34px 19px;
+            /* padding y(top/bottom) x(left/right) */
+            margin: 14px 19px;
+            border-radius: 24px;
+            width: 533px;
+            box-sizing: border-box;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <!-- Shortcut type "p#first" -->
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam laboriosam natus doloribus vitae
+            soluta aliquid pariatur accusamus corporis rem illum et eos omnis, error voluptate perferendis hic
+            laudantium eaque.
+            Alias possimus laboriosam nemo nam tempora quo illo doloremque consequatur suscipit!
+        </p>
+    </div>
+
+    <div class="container">
+        <h3>This is my heading</h3>
+        <!-- Shortcut type "p#first" -->
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam laboriosam natus doloribus
+            vitae soluta aliquid pariatur accusamus corporis rem illum et eos omnis, error voluptate perferendis hic
+            laudantium eaque.
+            Alias possimus laboriosam nemo nam tempora quo illo doloremque consequatur suscipit!
+        </p>
+    </div>
+
+    <div class="container">
+        <h3>This is my heading</h3>
+        <!-- Shortcut type "p#first" -->
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam laboriosam natus doloribus vitae
+            soluta aliquid pariatur accusamus corporis rem illum et eos omnis, error voluptate perferendis hic
+            laudantium eaque.
+            Alias possimus laboriosam nemo nam tempora quo illo doloremque consequatur suscipit!
+        </p>
+    </div>
+
+</body>
+
+</html>
