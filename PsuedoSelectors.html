@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psuedo selectors and more designing</title>
+    <style>
+        .container{
+            border:2px solid red;
+            background-color: rgb(143, 190, 95);
+            padding:34px;
+            margin:34px auto;
+            border-radius: 23px;
+            width:666px;
+        }
+        
+        a{
+            text-decoration: none;/* to remove the link  */
+            color:black;
+        }
+        a:hover{/* as u move the curser on the button we can change the color */
+            background-color: rgb(216, 238, 20);
+        }
+        a:visited
+        {
+            background-color: rgb(24, 21, 197);
+        }
+        a:active{
+            background-color:rgb(33, 173, 64);
+        }
+    
+       
+
+        .btn
+        {
+            font-family: 'Roboto Condensed', sans-serif;
+            background-color: blueviolet;
+            padding:6px;
+            border:none;
+            cursor:pointer;
+            font-size: 13px;
+            border-radius: 4px;
+            font-style: italic;
+            font-weight: bold;
+        }
+        .btn:hover{
+            color:darkgoldenrod;
+            background-color: bisque;
+            border:2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>This is my Heading</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab minima esse sed maxime, 
+            voluptate quaerat dolor voluptates numquam consequatur magnam non blanditiis nam ullam.</p>
+            <a href="https://tinder.com/" class="btn">Read more</a>
+            <button class="btn">Contact us</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+body{
+    /* background-color: paleturquoise;
+    background-size: cover;
+    background-clip: border-box;
+*/
+    background-color: #444;
+    text-align: center;
+}
+
+html{
+    font-family:"Times roman",serif,sans-serif;
+}
+
+h1,h2,h3{
+    color:rgb(125, 47, 199);
+    text-shadow: 2px 2px 4px black;
+    line-height: 1rem;
+    font-family: sans-serif;
+}
+
+h2{
+    font-size:30px ;
+    font-style:normal;
+}
+
+
+
+.borderImg{
+    border: 10px dashed red;
+}
+ul li{
+    color:blue;
+}
+
+
+h1{
+    color: grey !important;
+}
+
+a{
+    text-decoration:underline;
+    font-size: 20px;
+    color:yellow;
+    word-spacing:10px;
+    text-transform:uppercase;
+}
+
+.formatting{
+    font-size: 25px;
+    line-height: 2em;
+    color: white
+}

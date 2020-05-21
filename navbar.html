@@ -1,0 +1,177 @@
+<!--creating navbar-->
+<!--creating form group-->
+<! doctype html>
+<html lang="en">
+    <head>
+        <title> My Css Website
+        </title>
+        <link rel="stylesheet" href="style.css">   
+    </head>
+    
+    <body>
+        <nav>
+            <ul class="topnav" id="dropdownClick">
+                <li><a href ="#home">Home</a></li>
+                <li><a href ="#news">News</a></li>
+                <li><a href ="#contact">Contact</a></li>
+                <li><a href ="#about">About</a></li>
+                <li class="topnav-right"><a href ="#log in">Log in</a></li>
+                <li class="topnav-right"><a href ="#sign in">Sign in</a></li>
+                <li class="dropdownicon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+            </ul>
+        </nav>
+        
+        <div class="container" id="section-1-gradient">
+            <div class="row">
+            <div class="col-6">
+                <div class="leftSide-col">
+                    <h1 class="large">Crack</h1>
+                </div>
+                <form>
+                    <div class="leftSide-col">
+                        <h2>Username</h2>
+                        <input class="inputbox" name = "username" type="text" placeholder="Username">
+                        <h2>Password</h2>
+                        <input class="inputbox" name="username" type="text" placeholder="Password">
+                    </div>
+                </form>
+            </div>
+            <div class="col-6">
+              <div class="rightSide-col">
+                 <div class="VideoContainer">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/C-T8RrV61Cc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>  
+            </div>
+            </div>
+        </div>
+           
+        <header>
+            <h1 class="section2Header">
+                The Standard of Awesomeness
+            </h1>
+        </header>
+         <div class="container">
+             <div class="row">
+                 <div class="col-4">
+                     <div class="box">
+                         <div class="icon">
+                             <img src="lion.png">
+                         </div>
+                         <label>Chat with Me</label>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                             In at turpis nulla. Donec ex odio, condimentum tristique
+                              elit at, placerat blandit lorem. Duis venenatis velit ut dolor ullamcorper commodo.
+                               +a pulvinar ac, molestie mattis lectus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+                         </p>
+                     </div>
+                 </div>
+                 <div class="col-4">
+                     <div class="box">
+                         <div class="icon">
+                             <img src="lion.png">
+                         </div>
+                         <label>Learn to play</label>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                              In at turpis nulla. Donec ex odio, condimentum tristique 
+                              elit at, placerat blandit lorem. Duis venenatis velit ut dolor ullamcorper commodo. +a pulvinar ac, molestie mattis lectus. 
+                              Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+                         </p>
+                     </div>
+                 </div>
+                 <div class="col-4">
+                     <div class="box">
+                         <div class="icon">
+                             <img src="lion.png">
+                         </div>
+                         <label>Quick tutorial</label>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                             In at turpis nulla. Donec ex odio, condimentum tristique
+                              elit at, placerat blandit lorem. Duis venenatis velit ut dolor ullamcorper commodo. +a pulvinar ac, molestie mattis lectus. 
+                              Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+                         </p>
+                     </div>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="col-12">
+                     <button class="learnMore">Learn More</button>
+                 </div>
+             </div>
+         </div>  
+        <hr>
+        <div class="container">
+            <div class="row">
+              <div class="col-7">
+                <article>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                         Voluptas debitis itaque, ipsa molestias quia voluptatum 
+                         quos natus accusantium, magni harum sit enim alias! 
+                         Eveniet eius,Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                         In at turpis nulla. Donec ex odio, condimentum tristique
+                         elit at, placerat blandit lorem. Duis venenatis velit ut dolor ullamcorper commodo.
+                         +a pulvinar ac, molestie mattis lectus. 
+                         Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+                         modi voluptatum et dolore sapiente!</p>
+                </article>
+              </div>
+            <div class="col-5">
+                <div class="slopeIcon">
+                    <img src="lion.png">
+                </div>
+            </div>
+          </div>
+        </div>     
+        <script>
+            function dropdownMenu(){
+                var x = document.getElementById("dropdownClick"); 
+                if(x.className === "topnav"){
+                    x.className += " responsive";
+                }
+                else{
+                    x.className = "topnav";
+                }
+            }
+        </script>
+        
+        <footer class="footsy">
+            <div class="row">
+                <div class="col-3">
+                    <h1>Company</h1>
+                    <ul>
+                        <li>About</li>
+                        <li>Blogs</li>
+                        <li>Franchises</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h1>Stats</h1>
+                    <ul>
+                        <li>Matches</li>
+                        <li>Catches</li>
+                        <li>Wins</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h1>Purchases</h1>
+                    <ul>
+                        <li>hotstar</li>
+                        <li>hotstar VIP</li>
+                        <li>hotstar Premium</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h1>Formats</h1>
+                    <ul>
+                        <li>Test</li>
+                        <li>T20</li>
+                        <li>ODI</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        
+        
+        
+    </body>
+</html>
